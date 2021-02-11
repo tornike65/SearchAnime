@@ -1,0 +1,50 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+main {
+    width:80%;
+    margin:50px auto;
+}
+
+.form-group {
+    display: flex;
+}
+.form-group .form-control { margin-right: 10px; }
+main .animes-area  {
+    margin-top:70px;
+}
+main .animes-area article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .animes-area article .card {
+    margin:15px;
+}
+
+main .animes-area article .card img {
+    height: 250px;
+    object-fit: cover;
+    width:100%;
+}
+
+.loading {
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background: rgba(200,200,200,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.spinner-border {
+    width:200px;
+    height: 200px;
+    overflow: hidden;
+}
